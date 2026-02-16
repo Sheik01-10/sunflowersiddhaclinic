@@ -63,37 +63,55 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* BLOOM WITH WELLNESS */}
-        <div className="bg-white rounded-2xl shadow-xl p-10 md:p-14">
-          <h2 className="text-3xl font-bold text-green-800 mb-4 text-center">
-            🌻 Bloom with Wellness
-          </h2>
+       {/* BLOOM WITH WELLNESS */}
+<div className="bg-white rounded-2xl shadow-xl p-10 md:p-14">
+  <h2 className="text-3xl font-bold text-green-800 mb-4 text-center">
+    🌻 Bloom with Wellness
+  </h2>
 
-          <p className="text-gray-700 max-w-3xl mx-auto text-center mb-10">
-            Support your healing journey beyond consultations. Download our
-            carefully designed wellness resources to stay consistent, informed,
-            and empowered every day.
-          </p>
+  <p className="text-gray-700 max-w-3xl mx-auto text-center mb-12">
+    Wellness is a journey of balance, patience, and natural growth.
+    At Sunflower Siddha Clinic, we help every individual bloom through
+    compassionate care, traditional Siddha wisdom, and a holistic approach
+    to healing.
+  </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              "Health & Lifestyle Guides",
-              "Daily & Weekly Wellness Trackers",
-              "Educational Awareness Posters",
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="bg-green-50 border border-green-100 p-6 rounded-xl text-center hover:shadow-lg transition"
-              >
-                <Download className="w-10 h-10 text-green-600 mx-auto mb-4" />
-                <h4 className="font-bold text-green-800">{item}</h4>
-                <p className="text-sm text-gray-600 mt-2">
-                  Easy-to-download resources for better wellness habits
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+  <div className="grid md:grid-cols-3 gap-8">
+    <div className="bg-gradient-to-b from-yellow-50 to-white p-8 rounded-2xl shadow hover:shadow-xl transition text-center">
+      <Flower2 className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
+      <h4 className="text-xl font-bold text-green-800 mb-3">
+        Natural Growth
+      </h4>
+      <p className="text-gray-600">
+        Healing that works in harmony with nature, allowing the body to recover
+        and strengthen at its own pace.
+      </p>
+    </div>
+
+    <div className="bg-gradient-to-b from-green-50 to-white p-8 rounded-2xl shadow hover:shadow-xl transition text-center">
+      <Heart className="w-12 h-12 text-green-600 mx-auto mb-4" />
+      <h4 className="text-xl font-bold text-green-800 mb-3">
+        Compassionate Healing
+      </h4>
+      <p className="text-gray-600">
+        Personalized care where every patient is listened to, understood,
+        and supported throughout the healing journey.
+      </p>
+    </div>
+
+    <div className="bg-gradient-to-b from-emerald-50 to-white p-8 rounded-2xl shadow hover:shadow-xl transition text-center">
+      <Leaf className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
+      <h4 className="text-xl font-bold text-green-800 mb-3">
+        Sustainable Wellness
+      </h4>
+      <p className="text-gray-600">
+        Focus on long-term health by nurturing balance in lifestyle, nutrition,
+        and mental well-being.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       </div>
     </section>
