@@ -1,4 +1,4 @@
-import { Flower2, Leaf, Heart, Shield, Download } from "lucide-react";
+import { Flower2, Leaf, Heart, Shield, } from "lucide-react";
 
 export default function Hero() {
   return (

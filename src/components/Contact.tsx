@@ -10,12 +10,12 @@ export default function Contact() {
   };
 
   // ✅ FIXED GOOGLE MAP OPEN
-  const handleMapClick = () => {
-    window.open(
-      'https://www.google.com/maps?q=SUNFLOWER+SIDDHA+CLINIC+ERODE',
-      '_blank'
-    );
-  };
+ const handleMapClick = () => {
+  window.open(
+    "https://www.google.com/maps?q=11.347308,77.702505",
+    "_blank"
+  );
+};
 
   return (
     <>
