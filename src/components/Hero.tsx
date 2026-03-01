@@ -1,6 +1,5 @@
 import { Flower2, Leaf, Heart, Shield, } from "lucide-react";
 import { usePageView } from "../hooks/usePageView";
-import ViewCounter from "../components/ViewCounter";
 export default function Hero() {
   usePageView();
   return (
@@ -31,8 +30,6 @@ export default function Hero() {
             on positivity, balance, and holistic care — nurturing the mind, body,
             and soul through Siddha wisdom and natural remedies.
           </p>
-          {/* 👁 Live Website Views */}
-  <ViewCounter />
         </div>
 
         {/* CORE VALUES */}

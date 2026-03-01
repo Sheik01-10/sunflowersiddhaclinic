@@ -3,12 +3,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth, setPersistence, browserLocalPersistence  } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCMrkb2ZtI9i1hHej8Gc1nY7cO35caQj9M",
-  authDomain: "sunflower-siddha-clinic-f7575.firebaseapp.com",
-  projectId: "sunflower-siddha-clinic-f7575",
-  storageBucket: "sunflower-siddha-clinic-f7575.firebasestorage.app",
-  messagingSenderId: "360172553953",
-  appId: "1:360172553953:web:f9870f9b98964d0153d9a0"
+  apiKey: "AIzaSyCl7IpsB3hh75LFwN-xCl9s0gQ3v0bLO3Y",
+  authDomain: "sunflowersiddhaclinic-998b7.firebaseapp.com",
+  projectId: "sunflowersiddhaclinic-998b7",
+  storageBucket: "sunflowersiddhaclinic-998b7.firebasestorage.app",
+  messagingSenderId: "198026952923",
+  appId: "1:198026952923:web:2b5e079e81f2b0f634ccfe"
 };
 
 const app = initializeApp(firebaseConfig);
