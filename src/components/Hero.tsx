@@ -9,28 +9,32 @@ export default function Hero() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* HERO HEADER */}
-        <div className="text-center mb-20">
-          <div className="flex justify-center mb-6">
-            <div className="bg-white p-8 rounded-full shadow-xl">
-              <Flower2 className="w-24 h-24 text-yellow-500" />
-            </div>
-          </div>
+     {/* HERO HEADER */}
+<div className="text-center mb-24">
+  <div className="flex justify-center mb-8">
+    <div className="bg-white p-8 rounded-full shadow-xl">
+      <img
+        src="/logo.jpeg"
+        alt="Sunflower Siddha Clinic Logo"
+        className="w-40 h-40 object-contain"
+      />
+    </div>
+  </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold text-green-800 mb-4">
-            Sunflower Siddha Clinic
-          </h1>
+  <h1 className="text-5xl md:text-6xl font-bold text-green-800 mb-4">
+    Sunflower Siddha Clinic
+  </h1>
 
-          <p className="text-xl md:text-2xl text-green-700 font-semibold mb-6">
-            Turning Towards the Sun of Wellness
-          </p>
+  <p className="text-xl md:text-2xl text-green-700 font-semibold mb-6">
+    Turning Towards the Sun of Wellness
+  </p>
 
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Just like a sunflower turns toward the sun, our healing approach focuses
-            on positivity, balance, and holistic care — nurturing the mind, body,
-            and soul through Siddha wisdom and natural remedies.
-          </p>
-        </div>
+  <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+    Just like a sunflower turns toward the sun, our healing approach focuses
+    on positivity, balance, and holistic care — nurturing the mind, body,
+    and soul through Siddha wisdom and natural remedies.
+  </p>
+</div>
 
         {/* CORE VALUES */}
         <div className="grid md:grid-cols-3 gap-8 mb-20">
